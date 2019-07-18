@@ -2,7 +2,7 @@ def find_element_index(array, value_to_find)
   # Add your solution here
   array.collect do |int|
     if int = value_to_find
-      return int.index()
+      return int
     else
       nil
     end
